@@ -284,10 +284,15 @@ ion-icon{
     .content_paragraph {
         font-size:.m;
     }
+    .footer_parent_section{
+        background:hsl(192, 100%, 9%);
+    }
     .footer_section {
         flex-direction:row;
         justify-content:space-between;
         align-items:flex-start;
+        max-width:min(95%, 1100px);
+        margin:0 auto;
     }
     .footer_pargraph, .icon_paragraph{
         max-width:200px;
